@@ -46,6 +46,6 @@ function! s:syntastic()
 endfunction
 
 let g:lightline = {
-      \ 'colorscheme': 'molokai'
+      \ 'colorscheme': 'sonokai'
       \ }
 

@@ -20,11 +20,13 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 " Unit.vim
 NeoBundle 'Shougo/unite.vim'
 " ファイルツリー
-"NeoBundle 'Shougo/vimfiler'
+NeoBundle 'Shougo/vimfiler'
 " カラースキームmolokai
 NeoBundle 'tomasr/molokai'
+" カラースキームsonokai
+NeoBundle 'sainnhe/sonokai'
 " カラースキームmiramare
-"NeoBundle 'franbach/miramare'
+NeoBundle 'franbach/miramare'
 " カラースキームmaterial
 "NeoBundle 'jdkanani/vim-material-theme'
 " ステータスラインの表示内容強化
@@ -32,7 +34,7 @@ NeoBundle 'itchyny/lightline.vim'
 " インデントの可視化
 NeoBundle 'Yggdroot/indentLine'
 " 末尾の全角半角空白文字を赤くハイライト
-NeoBundle 'bronson/vim-trailing-whitespace'
+"NeoBundle 'bronson/vim-trailing-whitespace'
 " 構文エラーチェック
 NeoBundle 'scrooloose/syntastic'
 " 多機能セレクタ
@@ -65,3 +67,4 @@ filetype plugin indent on
 
 " 未インストールのVimプラグインがある場合、インストールするかどうかを尋ねてくれるようにする設定
 NeoBundleCheck
+

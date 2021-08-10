@@ -14,18 +14,18 @@ set list  " 不可視文字を表示する
 set listchars=tab:»-,trail:-,extends:»,precedes:«,nbsp:%,eol:↲ " デフォルト不可視文字は美しくないのでUnicodeで綺麗に
 
 "全角スペースをハイライト表示
-"function! ZenkakuSpace()
-"    highlight ZenkakuSpace cterm=reverse ctermfg=DarkMagenta gui=reverse guifg=DarkMagenta
-"endfunction
+function! ZenkakuSpace()
+    highlight ZenkakuSpace cterm=reverse ctermfg=DarkMagenta gui=reverse guifg=DarkMagenta
+endfunction
 
-"if has('syntax')
-"    augroup ZenkakuSpace
-"        autocmd!
-"        autocmd ColorScheme       * call ZenkakuSpace()
-"        autocmd VimEnter,WinEnter * match ZenkakuSpace /　/
-"    augroup END
-"    call ZenkakuSpace()
-"endif
+if has('syntax')
+    augroup ZenkakuSpace
+        autocmd!
+        autocmd ColorScheme       * call ZenkakuSpace()
+        autocmd VimEnter,WinEnter * match ZenkakuSpace /　/
+    augroup END
+    call ZenkakuSpace()
+endif
 
 if has("autocmd")
   "ファイルタイプの検索を有効にする
