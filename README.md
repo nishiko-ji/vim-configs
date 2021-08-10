@@ -14,4 +14,5 @@ source ~/vim-configs/clipboard.vim
 source ~/vim-configs/syntastic.vim
 source ~/vim-configs/complement.vim
 source ~/vim-configs/ctrlp.vim
+source ~/vim-configs/filer.vim
 ```
