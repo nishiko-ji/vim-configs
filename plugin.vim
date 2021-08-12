@@ -27,6 +27,8 @@ NeoBundle 'tomasr/molokai'
 NeoBundle 'sainnhe/sonokai'
 " カラースキームmiramare
 NeoBundle 'franbach/miramare'
+" カラースキームiceberg
+NeoBundle 'cocopon/iceberg.vim'
 " カラースキームmaterial
 "NeoBundle 'jdkanani/vim-material-theme'
 " ステータスラインの表示内容強化
