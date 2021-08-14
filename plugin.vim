@@ -27,10 +27,10 @@ NeoBundle 'tomasr/molokai'
 NeoBundle 'sainnhe/sonokai'
 " カラースキームmiramare
 NeoBundle 'franbach/miramare'
-" カラースキームiceberg
-NeoBundle 'cocopon/iceberg.vim'
 " カラースキームmaterial
 "NeoBundle 'jdkanani/vim-material-theme'
+" カラースキームiceberg
+NeoBundle 'cocopon/iceberg.vim'
 " ステータスラインの表示内容強化
 NeoBundle 'itchyny/lightline.vim'
 " インデントの可視化

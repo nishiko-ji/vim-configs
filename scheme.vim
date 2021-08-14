@@ -1,6 +1,10 @@
 "----------------------------------------------------------
 " カラースキーム
 "----------------------------------------------------------
+" True Color 対応
+set termguicolors
+"let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum" " 文字色
+"let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum" " 背景色
 "molokai
 "if neobundle#is_installed('molokai')
 "    colorscheme molokai " カラースキームにmolokaiを設定する
@@ -15,10 +19,8 @@
 "let g:miramare_disable_italic_comment = 1
 "colorscheme miramare
 "sonokai
-"if neobundle#is_installed('sonokai')
-"    colorscheme sonokai " カラースキームにsonokaiを設定する
-"endif
+if neobundle#is_installed('sonokai')
+    colorscheme sonokai " カラースキームにsonokaiを設定する
+endif
 " iceberg
-"if neobundle#is_installed('iceberg')
-    colorscheme sonokai " カラースキームにicebergを設定する
-"endif
+"colorscheme iceberg " カラースキームにicebergを設定する
